@@ -4,7 +4,7 @@ This document explains the output you see when training the AI.
 
 ## 1. What does "Model saved at 50000 steps" mean?
 It means the AI has practiced the game for **50,000 turns**.
--   Every 10,000 steps, we save a "checkpoint" (a snapshot of its brain) to the `models/PPO/` folder.
+-   Every 10,000 steps, we save a "checkpoint" (a snapshot of its brain) to the `PPO/` folder.
 -   This allows you to stop training and resume later, or to see how the AI improves over time.
 
 ## 2. Key Metrics Explained
